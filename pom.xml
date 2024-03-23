@@ -24,7 +24,7 @@
   </properties>
 
   <dependencies>
-
+<!-- jenkins auto trigger-->
 
     <dependency>
       <groupId>io.cucumber</groupId>
