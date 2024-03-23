@@ -24,7 +24,6 @@
   </properties>
 
   <dependencies>
-<!-- jenkins auto test the webhook triggerdidnt work  -->
 
     <dependency>
       <groupId>io.cucumber</groupId>
