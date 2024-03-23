@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OpenCart Parallel test" verbose="2" parallel="false">
+
+    <test name="LoginPage Test">
+         <classes>
+             <class name="runner.TestRunner"></class>
+         </classes>
+    </test>
+
+
+    <!--
+    <test name="Parallele Test" parallel="true">
+        <classes>
+            <class name="parallel.ParallelRun"></class>
+        </classes>
+    </test>
+-->
+</suite>

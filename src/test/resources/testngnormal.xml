@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="2" parallel="classes" thread-count="5">
+    <test verbose="2" preserve-order="true" name="C:/NigelTechHub/CucumberBDD">
+        <classes>
+            <class name="openCartTests.Opencart">
+            <methods>
+                <include name="iAmOnTheOpenCratLoginPage"/>
+                <include name="iHaveEnteredAValidUsernameAndPassword"/>
+                <include name="iClickOnTheLoginButton"/>
+                <include name="iShouldBeLoggedInSuccessfully"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
